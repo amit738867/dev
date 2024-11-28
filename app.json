@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "OmniCapture",
+    "slug": "OmniCapture",
+    "owner": "zeekouu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1c1c1e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zeekouu.OmniCapture"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zeekouu.OmniCapture"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "91906e11-ed92-4d37-be65-4eef6547e19b"
+      },
+      "googleClientId": "682001273815-l3s6fd6umbo4hb1absq8c1ik5ibr8jd9.apps.googleusercontent.com",
+      "googleApiKey": "AIzaSyABCUEmQnBTJsj5rSRqSSosCh9rakhnVhE",
+      "redirectUri": "https://auth.expo.io/@zeekouu/OmniCapture"
+    }
+  },
+  "plugins": [
+    [
+      "@react-native-google-signin/google-signin",
+      {
+        "iosUrlScheme": "com.googleusercontent.apps.689925064524-0q3orh9al5uf5h6udksbu6jtn799e2ta"
+      }
+    ]
+  ]
+}
